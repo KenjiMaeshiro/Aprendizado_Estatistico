@@ -2,6 +2,5 @@
 ## Conjunto de Dados 
 O conjunto de dados utilizado neste estudo é composto por informações referentes aos participantes do Exame Nacional do Ensino Médio (ENEM), permitindo analisar dados como o desempenho dos alunos nas competências da prova e também dados socioecônomicos, estes dados serão utilizados para responder a pergunta: A situação socioeconômica dos alunos influencia nas suas notas? O conjunto disponibilizado foi extraído e alterado com as colunas de interesse para o estudo.
 ## Dicionário de Variáveis
-O Dicionário de Variáveis apresenta as colunas e explica brevemente os dados presentes nelas, alguns valores foram reduzidos por organização visual adequada da tabela mas no artigo final os mesmos valores estarão explicados e apresentados.
-
+O dicionário de variáveis apresenta as principais colunas utilizadas no conjunto de dados, acompanhadas de uma breve descrição de seu significado, seu respectivo tipo e seus valores ou unidades. Para facilitar a organização e a apresentação visual da tabela, alguns valores foram resumidos mas pelo menos o valor mínimo e máximo presente neles é explicado na linha específica da tabela como por exemplo na Q07 que tem 17 respostas possíveis da renda mensal da família e portanto foi resumida ao valor inicial de nenhuma renda e acima de Acima de 30.360,00 reais. Entretanto, no artigo final, as categorias e os valores completos serão apresentados e devidamente detalhados.
 
