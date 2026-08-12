@@ -7,7 +7,21 @@
 \usepackage[a4paper, margin=2cm]{geometry}
  
 \begin{document}
- 
+\section{Conjunto de Dados}
+
+O conjunto de dados utilizado neste estudo é composto por informações referentes aos participantes do Exame Nacional do Ensino Médio (ENEM), permitindo analisar aspectos como o desempenho dos alunos nas diferentes áreas da prova e suas características socioeconômicas.
+
+A partir desses dados, busca-se responder à seguinte questão: \textit{A situação socioeconômica dos alunos influencia em suas notas?}
+
+O conjunto de dados disponibilizado foi previamente extraído e posteriormente organizado, mantendo apenas as colunas consideradas relevantes para o desenvolvimento do estudo e para a análise da relação entre as condições socioeconômicas e o desempenho dos participantes.
+
+\section{Dicionário de Variáveis}
+
+O dicionário de variáveis apresenta as principais colunas utilizadas no conjunto de dados, acompanhadas de uma breve descrição de seu significado, seu respectivo tipo e seus valores ou unidades.
+
+Para facilitar a organização e a apresentação visual da tabela, alguns valores foram resumidos. Entretanto, no artigo final, as categorias e os valores completos serão apresentados e devidamente detalhados.
+
+
 \begin{table}[ht]
 \centering
  
@@ -33,14 +47,14 @@
  
 NU\_INSCRICAO&Número da inscrição do aluno&Qualitativa nominal& Número de 12 dígitos \\[0.3cm]
 NU\_ANO&Ano de realização da prova&Quantitativa discreta& Anos de 2021 à 2025 \\[0.3cm]
-TP\_COR\_RACA& Identificação de raca cor do aluno& Qualitativa nominal & Categorias de Raça/Cor & \\[0.3cm]
+TP\_COR\_RACA& Identificação de raça& Qualitativa nominal & Categorias de Raça/Cor & \\[0.3cm]
 NU\_NOTA\_CN& Nota de ciências naturais & Quantitativa contínua & 0 a 1000 pontos \\[0.3cm]
 NU\_NOTA\_CH& Nota de ciências humanas& Quantitativa contínua & 0 a 1000 pontos \\[0.3cm]
 NU\_NOTA\_LC& Nota de linguagens e codigos & Quantitativa contínua & 0 a 1000 pontos \\[0.3cm]
 NU\_NOTA\_MT& Nota de matemática &Quantitativa contínua & 0 a 1000 pontos \\[0.3cm]
 NU\_NOTA\_RED& Nota da redação & Quantitativa contínua & 0 a 1000 pontos \\[0.3cm]
-Q006& O aluno possui renda? & Qualitativa nominal & A = Não; B = Sim  \\[0.3cm]
-Q007& Qual a renda mensal da família do aluno? & Qualitativa ordinal & Valores A < Q \\[0.3cm]
+Q006& O aluno possui renda? & Quantitativa nominal & A = Não; B = Sim  \\[0.3cm]
+Q007& Qual a renda mensal (Reais) da família do aluno? & Qualitativa ordinal & Valores de A = Nenhuma até Q = Acima de 30.360,00 \\[0.3cm]
 Q020& Na casa do aluno, existe acesso à internet por rede wi-fi? & Qualitativa nominal & A = Não; B = Sim \\[0.3cm]
 Q021& Na casa do aluno, existe computador/notebook? & Qualitativa nominal & Categorias de A = Não até E = Sim, quatro ou mais \\[0.3cm]
 
